@@ -1,0 +1,43 @@
+#preview {
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: $primary;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 10px 0 10px;
+    }
+    img {
+        padding: 10px;
+    }
+    li {
+        margin-left: 30px;
+    }
+    ol,
+    ul {
+        margin: 15px 0 15px;
+    }
+    blockquote,
+    code,
+    pre {
+        margin: 15px;
+        background-color: $code;
+        width: fit-content;
+        padding: 10px;
+        line-height: 2em;
+        border-radius: 5px;
+        margin: 20px 0 20px;
+    }
+    pre {
+        code {
+            padding: 0;
+        }
+    }
+    blockquote {
+        border-left: solid 8px #0a2e3f;
+        font-style: italic;
+    }
+}
