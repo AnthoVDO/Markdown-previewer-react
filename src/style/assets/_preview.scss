@@ -1,7 +1,8 @@
 #preview {
-    border-radius: 5px;
+    border-radius: 10px;
     padding-left: 10px;
     background-color: $primary;
+    padding: 20px 10px;
     h1,
     h2,
     h3,
@@ -15,6 +16,7 @@
     }
     li {
         margin-left: 30px;
+        margin-right: 30px;
     }
     ol,
     ul {
@@ -23,13 +25,12 @@
     blockquote,
     code,
     pre {
-        margin: 15px;
         background-color: $code;
         width: fit-content;
         padding: 10px;
         line-height: 2em;
         border-radius: 5px;
-        margin: 20px 0 20px;
+        margin: 20px 10px 20px 0;
     }
     pre {
         code {
@@ -39,5 +40,31 @@
     blockquote {
         border-left: solid 8px #0a2e3f;
         font-style: italic;
+        position: relative;
+        padding-top: 30px;
+        padding-left: 30px;
+        &::before {
+            position: absolute;
+            content: "";
+            background-image: url(../img/double-quote-icon-white.png);
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            top: 10px;
+            left: 10px;
+            background-size: 100%;
+        }
+    }
+    a {
+        color: rgb(248, 155, 15);
+        &:hover {
+            color: $primary;
+            background-color: rgb(248, 155, 15);
+            padding: 2.5px 5px;
+            border-radius: 0 7px 7px 7px;
+        }
+        &:visited {
+            color: rgb(192, 122, 17);
+        }
     }
 }

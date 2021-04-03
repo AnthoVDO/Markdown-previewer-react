@@ -12,6 +12,7 @@
 }
 
 .container {
+    padding: 10px 25px 10px 20px;
     .title {
         text-align: center;
         padding: 20px;
@@ -21,4 +22,17 @@
 
 .copyright {
     text-align: center;
+    margin: 20px 20px 40px 20px;
+    font-size: 1em;
+    a {
+        background-color: $footer-btn-bg;
+        border: 1px solid $text;
+        border-radius: 0 10px 10px 10px;
+        padding: 5px;
+        color: $text;
+        &:hover {
+            color: $footer-btn-bg;
+            background-color: $text;
+        }
+    }
 }

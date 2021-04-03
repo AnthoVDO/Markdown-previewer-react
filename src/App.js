@@ -14,9 +14,10 @@ If you want to add some header, you can add a # next to your title.
 ### This is a h3 title  
 An other way to give impact to you text is to making it **bold** or *italic*  
 
-If you want to add a [link](https://images.unsplash.com/photo-1603226301024-e8461eb82e35?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80)
+If you want, you can add a [link](https://images.unsplash.com/photo-1603226301024-e8461eb82e35?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80) by putting word inside square bracket and the url next to it between round bracket.
 
-You can also add an image which is like a link except that the work between brackets is the alternative text  
+You can also add an image which is like a link, except that the word between brackets is the alternative text  
+and you need to add an exclamation mark on the left   
 ![Hello](https://cdn.iconscout.com/icon/premium/png-256-thumb/hello-1-336715.png)
 
 If you need to make a list, you can make  
